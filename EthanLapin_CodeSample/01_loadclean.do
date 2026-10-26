@@ -11,7 +11,7 @@ Run order:  First
 version 19                        
 set more off
 cap log close _all
-global PROJ "/Users/ethanlapin/Desktop/Pre Doc/EthanLapin_CodeSample"  // allows for singular runs after master sets up file system
+global PROJ "/Users/ethanlapin/Desktop/EthanLapin_CodeSample"  // allows for singular runs after master sets up file system
 log using "$PROJ/scripts/stata/_outputs/logs/01_loadclean.log", replace
 /*==============================
 Set Directory & Load Raw Data*
