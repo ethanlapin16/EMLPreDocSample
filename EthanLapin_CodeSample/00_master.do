@@ -24,7 +24,7 @@ you assign as the root. It will also move all relevant files from the
 .zip into the folders in which they belong 
 ======================================================================*/
 
-global PROJ "/Users/ethanlapin/Desktop/Pre Doc/EthanLapin_CodeSample" //set to wherever the file lives on your machine
+global PROJ "/Users/ethanlapin/Desktop/EthanLapin_CodeSample" //set to wherever the file lives on your machine
 	cap mkdir "$PROJ/scripts"
 	cap mkdir "$PROJ/scripts/stata"
 	cap mkdir "$PROJ/scripts/stata/_outputs"
